@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"e00de96738c164d2","x":-364,"y":120,"width":250,"height":60,"type":"text","text":""},
+		{"id":"74e5cbff15ba6ee6","x":-340,"y":-300,"width":250,"height":60,"color":"3","type":"text","text":"Watch components "},
+		{"id":"f1d55073520e0e57","x":-340,"y":-440,"width":530,"height":60,"color":"5","type":"text","text":"Ocuno "},
+		{"id":"500d3378cf7c8bf4","x":-460,"y":-160,"width":191,"height":60,"color":"1","type":"text","text":"[[Hardware]]"},
+		{"id":"94f9d34129e66fa9","x":-180,"y":-160,"width":241,"height":60,"color":"4","type":"text","text":"[[Software - watch]]"},
+		{"id":"5cb4e30dc3a6e407","x":-760,"y":-629,"width":250,"height":189,"color":"6","type":"text","text":"arrow meaning \nred- hardware \ngreen - software\nlight blue- hardware software integration"},
+		{"id":"9c48b88544d5471c","x":300,"y":-300,"width":250,"height":60,"color":"4","type":"text","text":"App/Website"},
+		{"id":"3b22156a3f3f819c","x":140,"y":-160,"width":250,"height":60,"color":"4","type":"text","text":"Website"},
+		{"id":"3313fa0fc6605015","x":480,"y":-160,"width":250,"height":60,"color":"4","type":"text","text":"App andrioid/ios"},
+		{"id":"e43ad61ba600f14b","x":-760,"y":-40,"width":250,"height":60,"color":"6","type":"text","text":"Hardware please go the respective canvas "}
+	],
+	"edges":[
+		{"id":"edc55a0d1c832ea2","fromNode":"f1d55073520e0e57","fromSide":"bottom","toNode":"74e5cbff15ba6ee6","toSide":"top","color":"5"},
+		{"id":"c6d563a01fe9b4a8","fromNode":"f1d55073520e0e57","fromSide":"bottom","toNode":"9c48b88544d5471c","toSide":"top","color":"4"},
+		{"id":"f007e68db3025d8a","fromNode":"74e5cbff15ba6ee6","fromSide":"bottom","toNode":"500d3378cf7c8bf4","toSide":"top","color":"1"},
+		{"id":"6992be184a177655","fromNode":"74e5cbff15ba6ee6","fromSide":"bottom","toNode":"94f9d34129e66fa9","toSide":"top","color":"4"},
+		{"id":"b2eede8323afadf2","fromNode":"9c48b88544d5471c","fromSide":"bottom","toNode":"3b22156a3f3f819c","toSide":"top","color":"4"},
+		{"id":"0dd741a5790f7a60","fromNode":"9c48b88544d5471c","fromSide":"bottom","toNode":"3313fa0fc6605015","toSide":"top","color":"4"},
+		{"id":"21460e693f31d4b1","fromNode":"500d3378cf7c8bf4","fromSide":"bottom","toNode":"e43ad61ba600f14b","toSide":"right","color":"1"}
+	]
+}
